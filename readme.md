@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-This script can be used to map a corporate network, using SMB and SSH to connect to hosts. This information is then parsed and compared to existing signatures to fingerprint the OS marking it as either a workstation, windows server, linux server or infrastructure device.
+This script can be used to map a corporate network, using SMB, HTTP and SSH to connect to hosts. This information is then parsed and compared to existing signatures to fingerprint the OS marking it as either a workstation, windows server, linux server or infrastructure device.
 This can be very useful on an internal penetration test when a limited scope is provided.
 
 A representative sample feature is also available. This feature was built for ITHC jobs which can require a 10% sample scan of an estate. It's all well and good scanning 10% of the Windows 10 hosts and missing the one Windows XP host.
