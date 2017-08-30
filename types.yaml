@@ -1,0 +1,371 @@
+---
+- !ruby/object:Type
+  name: Windows 95/98/ME
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows NT
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows XP
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows Vista (SP)
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows Vista
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows 7/8 (SP + Edition)
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows 7/8 (SP)
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows 7/8 (Edition)
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows 7/8
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows 10 Enterprise Insider Preview
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows 10
+  counter: 0
+  ip: []
+  type: WORKSTATION
+- !ruby/object:Type
+  name: Windows 2000
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2003 Beta
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2003 R2
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2003 R2 (SP)
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2003
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2003 (SP)
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2008
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Web Server 2008 (SP)
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Web Server 2008
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2008 Storage (SP)
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Web Server 2008 Storage
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2008 HPC
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Web Server 2008 HPC
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2008 R2
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2008 R2 Web
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Web Server 2008 R2 Web
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2012 R2 (SP)
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2012 R2
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2012 (SP)
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows Server 2012
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows MultiPoint Server 2012 (SP)
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: Windows MultiPoint Server 2012
+  counter: 0
+  ip: []
+  type: WINDOWS
+- !ruby/object:Type
+  name: FreeBSD
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: NetBSD
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Ubuntu
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Debian
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Raspbian
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Apple
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Sun
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Darwin
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Linux
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: SunOS
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Solaris
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: UnixWare
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: nginx
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Unix
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: HP
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: MikroTik
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: HipServ
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: Cisco
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: Juniper
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: Huawei
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: ARRIS
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: Adtran
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: LANCOM Systems
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: H3C
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: NetApp
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: VxWorks
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: OS/400
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: AIX
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: DG/UX
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: Darwin
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: DYNIX
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: HP-UX
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: IRIX
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: SVR
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: OSF/1
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: RISC OS
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: OpenServer
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: SunOS
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: SINIX
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: Ultrix/1
+  counter: 0
+  ip: []
+  type: INFRA
+- !ruby/object:Type
+  name: Windows Server 2016
+  counter: 0
+  ip: []
+  type: WINDOWS
