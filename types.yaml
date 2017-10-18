@@ -369,3 +369,18 @@
   counter: 0
   ip: []
   type: WINDOWS
+- !ruby/object:Type
+  name: ESXI
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Debian
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
+- !ruby/object:Type
+  name: Ubuntu
+  counter: 0
+  ip: []
+  type: DSB/LINUX/UNIX
