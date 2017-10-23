@@ -157,14 +157,19 @@ class Host
 	end
 
 	def self.ftp_recognise(host)
+		if host.ftp.nil?
+			return
+		end
 		recog = Recog::Nizer.match('ftp.banner', host.ftp)
 		if recog.nil?
 		elsif recog.has_key?("os.product")
 			host.ftp_recog = recog.fetch("os.product")
 		elsif recog.has_key?("service.product")
 			host.htftp_recog = recog.fetch("service.product")
-		else
+		elsif recog.has_key?("service.vendor")
 			host.ftp_recog = recog.fetch("service.vendor")
+		else
+			host.ftp_recog = nil
 		end
 	end
 
