@@ -291,7 +291,6 @@ unless opts[:restore]
 				host.public_send("#{type}_status=", "down")
 			end
 		end
-		puts host.http_status
 		device_type(host, types)
 		host.os_ident
 		host.type

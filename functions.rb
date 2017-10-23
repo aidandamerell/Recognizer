@@ -39,7 +39,8 @@ class Methods
 			https_connect(host,timeout)
 		end
 		rescue Errno::ECONNREFUSED, Errno::ECONNRESET, Net::ReadTimeout, Errno::ETIMEDOUT, Net::OpenTimeout, Errno::EACCES, Errno::EHOSTUNREACH, Errno::EHOSTDOWN, Errno::ENETUNREACH, OpenSSL::SSL::SSLError => error
-			puts error.class
+			host.http_status = "down"
+		rescue
 			host.http_status = "down"
 	end
 
